@@ -1,0 +1,124 @@
+@media only screen and (max-width: 600px) {
+
+
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+
+    p , a {
+        font-size: 12px;
+    }
+
+    h1,h2,h3
+    {
+        font-size: 16px;
+    }
+
+    h4,h5,h6 {
+        font-size: 14px;
+    }
+
+
+    .card .site-title {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    
+    #header .carousel .card {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        left: 15%;
+        color: #fff;
+        width: 14rem;
+    }
+
+    #works .tab-content #all .img-container {
+        position: relative;
+        height: 20rem;
+        margin: 0.5rem 0;
+    }
+    
+    #works .tab-content #all .img-container.long-image {
+        height: 648px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) { 
+
+    p , a {
+        font-size: 12px;
+    }
+
+    h1,h2,h3
+    {
+        font-size: 16px;
+    }
+
+    h4,h5,h6 {
+        font-size: 14px;
+    }
+
+    .card .site-title {
+        font-size: 1.75rem;
+    }
+
+}
+
+@media only screen and (min-width: 992px) { 
+
+    p , a {
+        font-size: 16px;
+    }
+
+    h1,h2,h3
+    {
+        font-size: 20px;
+    }
+
+    h4,h5,h6 {
+        font-size: 17px;
+    }
+
+
+    .card .site-title {
+        font-size: 2.25rem;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1200px) { 
+
+
+    p , a {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3
+    {
+        font-size: 25px;
+    }
+
+    h4,h5,h6 {
+        font-size: 20px;
+    }
+
+
+    .card .site-title {
+        font-size: 3rem;
+    }
+
+}
